@@ -23,4 +23,4 @@ INFO 343 is a very exciting and creative class. But I think the problem in gener
 Different languages and libraries work differently and it is very difficult to remember how all of them work. More importantly, they all use very different syntax which makes it hard to transition from 1 week to another. Parse library took a very long time to learn and I still don't completely understand it.
 
 The link to the website is:
-	students.washington.edu/nirawitj/info343/info343-crud/
+		students.washington.edu/nirawitj/info343/info343-crud
