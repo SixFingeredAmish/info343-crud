@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>memerankr</title>
+
+     <!-- jQuery, Bootstrap -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+
+  <body>
+    <nav>
+      <div id="logo">
+        memerankr
+      </div>
+    </nav>
+
+      <div id="main">
+        <section id="product" >
+          <div id="action">
+            <button>&uarr;</button>
+            <button>&darr;</button>
+
+            <div id="product-rating">
+            <!-- stars will EMERGE here -->
+            </div>
+
+          </div>
+          <div id="meme">
+            <img src="assets/meme.jpg">
+          </div>
+        </section>
+
+        <section id="write_review">
+          <h1>comment on this meme!</h1>
+
+          <form id="form">
+            <label for="review-title">Title</label>
+            <input id="review-title"></input>
+
+            <div id="stars"></div>
+            </br>
+
+            <label for="review-body">Body</label>
+            <input id="review-body" size="50"></input>
+
+            <button id="submit" type="submit">&rarr;</button>
+          </form>
+
+        </section>
+
+        <div id="reviews">
+          <hr></hr>
+          <h1>Comments</h1>
+
+            <ol>
+            <!-- comments appear here -->
+            </ol>
+
+        </div>
+
+      </div>
+
+      <div id="ads">
+        ads
+      </div>
+
+  </body>
+
+    <!-- for stars **** -->
+    
+    <script src="js/raty-fa.js"></script>
+
+    <!-- import parse -->
+    <script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+
+</html>
